@@ -14,24 +14,13 @@ def main():
     # 2. Use Python's math operators to convert 60 seconds into hours:
 
     # 3. Assign the answers from the previous two questions to two separate variables. Add them together and save the sum in a new variable called total. Print this variable.
-    
+
+    # 4. Create a new variable called stringy, and give it a value of "1000". Note the quotes.
+
+    # 5. Inside a print function, add stringy and total. What do you get in the console? Why?
+
     # Questions end here
     #######################
 
 # Don't modify the function call below:
 main()
-
-
-
-def answers():
-    # 1.
-    print(10*60*60)
-    # 2.
-    print(60/60./60.)
-    # 3.
-    hoursToSeconds = 10*60*60
-    secondsToHours = 60/60./60.
-    total = hoursToSeconds + secondsToHours
-    print(total)
-
-answers()

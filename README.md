@@ -59,8 +59,16 @@ _Note: In the future, if you save Python files to your computer, you have to be 
 
 # Module One
 ## Syntax, Primitives, and Basic Math
+_This module won't be too hefty - the main purpose is to understand primitives and basic syntax. We'll move faster and cover more ground in the later modules!_
+
 Readings / Lecture:
 Finish the first track (from 1 - 14) of the Python CodeAcademy course: https://www.codecademy.com/courses/learn-python/lessons/python-syntax/exercises/print-statements
 
 After you finish, try some of the excersies in this file (either create a new Python file and run it locally, or use the online compiler):
+
+https://github.com/ben-che/welcome-to-python/blob/master/Module%20One/index.py
+
+Answers will be found here:
+
+https://github.com/ben-che/welcome-to-python/blob/master/Module%20One/answer.py
 
