@@ -78,3 +78,21 @@ Answers will be found here:
 
 https://github.com/ben-che/welcome-to-python/blob/master/Module%20One/answer.py
 
+# Module Two
+## Conditional Flow
+_Conditional flow is one of the key concepts you'll find across almost all programming languages - this is the logic that dictates what happens under what conditions. There's going to be a small jump in difficulty from the previous module, and this is only because you'll be exposed to I/O and functions._
+
+Readings / Lecture : 
+
+Finish the control flow track from Code Academy to learn syntax:
+https://www.codecademy.com/courses/learn-python/lessons/conditionals--control-flow/exercises/go-with-the-flow?action=resume_content_item
+
+This is also a good resource for Python control flow, complete with state diagrams to help hammer points home (Read only from 4.1 - 4.42):
+http://www.openbookproject.net/books/bpp4awd/ch04.html
+
+After you finish, try some of the excersies in this file (either create a new Python file and run it locally, or use the online compiler):
+
+
+
+Answers will be found here:
+
