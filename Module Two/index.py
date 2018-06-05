@@ -2,7 +2,7 @@ import math, random
 ################################################################################################################################################
 
 # Create a simple ATM system that either prints "Success" if the user has enough money for a withdraw, or "Error" if they do not have
-#       enough funds
+#   enough funds
 # Sample Tests:
 #   atmLogic(100) => "Success"
 #   atmLogic(10) => "Success"
@@ -11,6 +11,20 @@ import math, random
 def atmLogic(withdrawAmount):
     currentBalance = 100
     # Define function below:
+
+################################################################################################################################################
+
+# Let's add more functionality to our original function - in addition to an amount, we're going to add a string that tells the atm
+#   if we're depositing or withdrawing money. The function should print success or failure, as well as an updated amount to the console
+#   in the case of a success
+# Sample Test:
+#   atmOperations("withdraw", 100) => "Success - your new balance is $0"
+#   atmOperations("withdraw", 10) => "Success - your new balance is $90"
+#   atmOperations("withdraw", 150) => "Error, not enough money"
+#   atmOperations("deposit", 100) => "Success - your new balance is $200"
+
+def atmOperations(action, amount):
+    currentBalance = 100
 
 ################################################################################################################################################
 
