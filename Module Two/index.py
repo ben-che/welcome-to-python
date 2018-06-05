@@ -1,11 +1,12 @@
 import math, random
-# Create a rock paper scissors game that takes in user input and computer input and prints :
+# Create a rock paper scissors game that takes in user input and computer input and prints whether the user wins or loses:
 def rockPaperScissors(userInput, computerInput):
     # Here, we run the computerPlays function, which will randomly generate "rock" "paper", or "scissors"
     print("Computer plays: " + computerInput)
+    print("User plays:" + userInput)
 
     # Write your conditional flow below:
-
+        # Hint: Think about the win / lose / tie conditions
 
 # Code that generates computer input - you don't have to change anything here:
 def computerPlays():
@@ -19,5 +20,7 @@ def computerPlays():
         computerAnswer = "scissors"
     return computerAnswer
 
-
+# Call 
 rockPaperScissors("rock", computerPlays())
+rockPaperScissors("paper", computerPlays())
+rockPaperScissors("scissors", computerPlays())
