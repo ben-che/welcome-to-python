@@ -44,7 +44,7 @@ Right click on the space below your workspace and click "Open in Terminal":
 <br><br>
 Now, let's check to see if we have Python installed properly.
 <br><br>
-_For Windows, type in: python -V_
+_For Windows, type in: py to enter Python shell and then exit() to quit_
 <br><br>
 _For MacOS, Python 2.7 comes preinstalled, and that's the version that will be executed for what I assume to be backwards compatibility issues. We would type in python3 --version_ to check.
 <br><br>
@@ -63,6 +63,8 @@ _This module won't be too hefty - the main purpose is to understand primitives a
 
 Readings / Lecture:
 Finish the first track (from 1 - 14) of the Python CodeAcademy course: https://www.codecademy.com/courses/learn-python/lessons/python-syntax/exercises/print-statements
+
+A really useful Code Academy track is the command line one - this gives you basic commands and allows you to nagivate through your system without the use of a GUI - super helpful when you're working in a directory on your command line and have to move to another, open a file, run tests, etc.
 
 After you finish, try some of the excersies in this file (either create a new Python file and run it locally, or use the online compiler):
 
