@@ -64,7 +64,11 @@ _This module won't be too hefty - the main purpose is to understand primitives a
 Readings / Lecture:
 Finish the first track (from 1 - 14) of the Python CodeAcademy course: https://www.codecademy.com/courses/learn-python/lessons/python-syntax/exercises/print-statements
 
-A really useful Code Academy track is the command line one - this gives you basic commands and allows you to nagivate through your system without the use of a GUI - super helpful when you're working in a directory on your command line and have to move to another, open a file, run tests, etc.
+_A really useful Code Academy track is the command line one - this gives you basic commands and allows you to nagivate through your system without the use of a GUI - super helpful when you're working in a directory on your command line and have to move to another, open a file, run tests, etc._
+
+_A cheat sheet can be found here:_
+
+_https://www.git-tower.com/blog/command-line-cheat-sheet/_
 
 After you finish, try some of the excersies in this file (either create a new Python file and run it locally, or use the online compiler):
 
