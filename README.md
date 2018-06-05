@@ -79,13 +79,30 @@ Answers will be found here:
 https://github.com/ben-che/welcome-to-python/blob/master/Module%20One/answer.py
 
 # Module Two
-## Conditional Flow
-_Conditional flow is one of the key concepts you'll find across almost all programming languages - this is the logic that dictates what happens under what conditions. There's going to be a small jump in difficulty from the previous module, and this is only because you'll be exposed to I/O and functions._
+## Functions and Conditional Flow
+_Conditional flow is one of the key concepts you'll find across almost all programming languages - this is the logic that dictates what happens under what conditions. Furthermore, conditional flow is often encased in functions._
+
+_One way to think of functions is to think of them like people in an office. Different people have different names and do different things. For example, if I worked in an office and my sole purpose was to get coffee for others, then to get get coffee, you would say "Ben, take this $5 and please get me a coffee". Similarily, with Python, we can define functions by giving them names and jobs, and once we're finished defining what they do, we simply call them by their name and give them any arguments they need._
+
+_If I were to define the Ben function and give it behaviour in pseudocode:_
+```
+def Ben(money):
+    if (money > 0):
+        return Coffee
+    else
+        return None
+```
+
+_Before you dive in there's going to be a large jump in difficulty from the previous module, and this is only because you'll be exposed to I/O and functions. If you have any questions please ask me, and I'll do my best to help out!_
 
 Readings / Lecture : 
 
 Finish the control flow track from Code Academy to learn syntax:
 https://www.codecademy.com/courses/learn-python/lessons/conditionals--control-flow/exercises/go-with-the-flow?action=resume_content_item
+
+Finish the functions track to learn function declaration., definition and invocation:
+
+https://www.codecademy.com/courses/learn-python/lessons/functions/exercises/what-good-are-functions?action=resume_content_item
 
 This is also a good resource for Python control flow, complete with state diagrams to help hammer points home (Read only from 4.1 - 4.42):
 http://www.openbookproject.net/books/bpp4awd/ch04.html
