@@ -11,6 +11,9 @@ Here's a quick crash course on Python and important CS concepts (WIP lol). We wo
      - [Command Line Basics](https://www.codecademy.com/learn/learn-the-command-line) (_optional_)
      - Alternatively, you don't have to save your work on your computer if you run Python on an [online compiler](http://rextester.com/l/python3_online_compiler)
 - [Module One](#module-one)
+- [Module Two](#module-two)
+- [Module Three](#module-three)
+- [Module Four](#module-four)
 
 # Introduction
 **What is Python?**
@@ -114,3 +117,30 @@ https://github.com/ben-che/welcome-to-python/blob/master/Module%20Two/index.py
 Answers will be found here:
 
 https://github.com/ben-che/welcome-to-python/blob/master/Module%20Two/answer.py
+
+# Module Three
+## Complex Data Types (Lists and Objects)
+
+# Module Four
+## Loops
+
+_Often, when we write functions, we need to use them multiple times. As an example, examine the following code:_
+
+Defining a function called count that prints it's input:
+```
+def count(n):
+    print(n)
+```
+If I wanted to count to 10, then I would have to call the function 10 times:
+```
+count(1)
+count(2)
+count(3)
+...
+count(10)
+```
+_In Python (and many other programming languages), there are ways to tell the language to do a specific set of instructions "x" amount of times. This, for the most part, is called a loop._
+```
+for n in range(1, 10):
+    count(n)
+```
