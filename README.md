@@ -109,7 +109,8 @@ http://www.openbookproject.net/books/bpp4awd/ch04.html
 
 After you finish, try some of the excersies in this file (either create a new Python file and run it locally, or use the online compiler):
 
-
+https://github.com/ben-che/welcome-to-python/blob/master/Module%20Two/index.py
 
 Answers will be found here:
 
+https://github.com/ben-che/welcome-to-python/blob/master/Module%20Two/answer.py
