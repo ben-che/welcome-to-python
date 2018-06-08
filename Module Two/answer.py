@@ -18,11 +18,11 @@ atmLogic(50)
 def atmOperations(action, amount):
     currentBalance = 100
     if (action == "withdraw" and amount <= currentBalance):
-        print("Success, new balance is $" + currentBalance - amount)
+        print("Success, new balance is $" + str(currentBalance - amount) )
     elif (action == "withdraw" and amount > currentBalance):
         print("Failure")
     elif (action == "deposit"):
-        print ("Success, new balance is $" + currentBalance + amount)
+        print ("Success, new balance is $" + str(currentBalance + amount) )
 
 atmOperations("withdraw", 100)
 atmOperations("withdraw", 10)
@@ -36,11 +36,11 @@ def rockPaperScissors(userInput, computerInput):
 
     # Sample solution code:
     # cases of a draw
-    if (computerInput === userInput):
+    if (computerInput == userInput):
         print("Draw!")
-    elif ((computerInput === "rock" and userInput === "paper") or (computerInput === "paper" and userInput === "scissors") or (computerInput === "scissors" and userInput === "rock")):
+    elif ((computerInput == "rock" and userInput == "paper") or (computerInput == "paper" and userInput == "scissors") or (computerInput == "scissors" and userInput == "rock")):
         print("You win!")
-    elif ((computerInput === "rock" and userInput === "scissors") or (computerInput === "paper" and userInput === "rock") or (computerInput === "scissors" and userInput === "paper")):
+    elif ((computerInput == "rock" and userInput == "scissors") or (computerInput == "paper" and userInput == "rock") or (computerInput == "scissors" and userInput == "paper")):
         print("You lose!")
     else:
         print("Invalid Input")
