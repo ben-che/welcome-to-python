@@ -64,7 +64,7 @@ _Note: In the future, if you save Python files to your computer, you have to be 
 ## Syntax, Primitives, and Basic Math
 This module won't be too hefty - the main purpose is to understand primitives and basic syntax. We'll move faster and cover more ground in the later modules!
 
-### Readings / Lecture:
+### Readings / Lecture
 Finish the first track (from 1 - 14) of the Python CodeAcademy course: https://www.codecademy.com/courses/learn-python/lessons/python-syntax/exercises/print-statements
 
 A really useful Code Academy track is the command line one - this gives you basic commands and allows you to nagivate through your system without the use of a GUI - super helpful when you're working in a directory on your command line and have to move to another, open a file, run tests, etc.
@@ -100,7 +100,7 @@ def Ben(money):
 
 Before you dive in there's going to be a large jump in difficulty from the previous module, and this is only because you'll be exposed to I/O and functions. If you have any questions please ask me, and I'll do my best to help out!
 
-### Readings / Lecture : 
+### Readings / Lecture
 
 Finish the control flow track from Code Academy to learn syntax:
 https://www.codecademy.com/courses/learn-python/lessons/conditionals--control-flow/exercises/go-with-the-flow?action=resume_content_item
@@ -123,8 +123,46 @@ Answers will be found here:
 https://github.com/ben-che/welcome-to-python/blob/master/Module%20Two/answer.py
 
 # Module Three
-## Complex Data Types (Lists and Objects)
+## Lists
+This is one of the most commonly found data structures in Python. At its core, the name describes exactly what is it - a list of values.
 
+Defining an empty list:
+
+```
+myEmptyList = [];
+```
+
+We can also define a list with items inside:
+
+```
+myPopulatedList = [1, 2, 3, "apples", "oranges", "bananas"];
+```
+
+We can even have lists within lists:
+
+```
+myHealthyList = [ ["Apples", "Oranges", "Bananas"], ["Cucumbers", "Celery", "Bok Choy"] ];
+```
+Each position in the list is called an index - this is also how we reference elements within a list. An important thing to remember is the index counts start at 0, meaning if we wanted to access the first item in a list, we use [0] instead of [1].
+
+```
+myPopulatedList[0] => Returns 1
+myPopulatedList[4] => Returns "apples"
+
+myHealthyList[0] => Returns an array of ["Apples", "Oranges", "Bananas"]
+myHealthyList[0][0] => Returns "Apples"
+```
+
+We can also concatenate lists and use built-in Python methods on lists - you'll learn some of the most common ones by the end of this module.
+
+
+### Readings / Lecture
+- [A really indepth read about Python Lists](https://www.digitalocean.com/community/tutorials/understanding-lists-in-python-3)
+- [Python List Basics with methods, indexing and operators](https://www.programiz.com/python-programming/list)
+- [Code Academy List Interactive Tutorial](https://www.codecademy.com/courses/learn-python/lessons/lists-and-functions/exercises/list-accessing)
+
+
+### Exercises and Answers
 
 # Module Four
 ## Loops
