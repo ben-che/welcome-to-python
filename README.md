@@ -62,17 +62,14 @@ _Note: In the future, if you save Python files to your computer, you have to be 
 
 # Module One
 ## Syntax, Primitives, and Basic Math
-_This module won't be too hefty - the main purpose is to understand primitives and basic syntax. We'll move faster and cover more ground in the later modules!_
+This module won't be too hefty - the main purpose is to understand primitives and basic syntax. We'll move faster and cover more ground in the later modules!
 
-Readings / Lecture:
+### Readings / Lecture:
 Finish the first track (from 1 - 14) of the Python CodeAcademy course: https://www.codecademy.com/courses/learn-python/lessons/python-syntax/exercises/print-statements
 
-_A really useful Code Academy track is the command line one - this gives you basic commands and allows you to nagivate through your system without the use of a GUI - super helpful when you're working in a directory on your command line and have to move to another, open a file, run tests, etc._
+A really useful Code Academy track is the command line one - this gives you basic commands and allows you to nagivate through your system without the use of a GUI - super helpful when you're working in a directory on your command line and have to move to another, open a file, run tests, etc.
 
-_A cheat sheet can be found here:_
-
-_https://www.git-tower.com/blog/command-line-cheat-sheet/_
-
+### Exercises and Answers
 After you finish, try some of the excersies in this file (either create a new Python file and run it locally, or use the online compiler):
 
 https://github.com/ben-che/welcome-to-python/blob/master/Module%20One/index.py
@@ -81,13 +78,18 @@ Answers will be found here:
 
 https://github.com/ben-che/welcome-to-python/blob/master/Module%20One/answer.py
 
+### Additional Resources
+- [Interactive Command Line Tutorial](https://www.codecademy.com/learn/learn-the-command-line)
+
+- [Command Line Cheatsheet](https://www.git-tower.com/blog/command-line-cheat-sheet/)
+
 # Module Two
 ## Functions and Conditional Flow
-_Conditional flow is one of the key concepts you'll find across almost all programming languages - this is the logic that dictates what happens under what conditions. Furthermore, conditional flow is often encased in functions._
+Conditional flow is one of the key concepts you'll find across almost all programming languages - this is the logic that dictates what happens under what conditions. Furthermore, conditional flow is often encased in functions._
 
-_One way to think of functions is to think of them like people in an office. Different people have different names and do different things. For example, if I worked in an office and my sole purpose was to get coffee for others, then to get get coffee, you would say "Ben, take this $5 and please get me a coffee". Similarily, with Python, we can define functions by giving them names and jobs, and once we're finished defining what they do, we simply call them by their name and give them any arguments they need._
+_One way to think of functions is to think of them like people in an office. Different people have different names and do different things. For example, if I worked in an office and my sole purpose was to get coffee for others, then to get get coffee, you would say "Ben, take this $5 and please get me a coffee". Similarily, with Python, we can define functions by giving them names and jobs, and once we're finished defining what they do, we simply call them by their name and give them any arguments they need.
 
-_If I were to define the Ben function and give it behaviour in pseudocode:_
+If I were to define the Ben function and give it behaviour in pseudocode:
 ```
 def Ben(money):
     if (money > 0):
@@ -96,19 +98,21 @@ def Ben(money):
         return None
 ```
 
-_Before you dive in there's going to be a large jump in difficulty from the previous module, and this is only because you'll be exposed to I/O and functions. If you have any questions please ask me, and I'll do my best to help out!_
+Before you dive in there's going to be a large jump in difficulty from the previous module, and this is only because you'll be exposed to I/O and functions. If you have any questions please ask me, and I'll do my best to help out!
 
-Readings / Lecture : 
+### Readings / Lecture : 
 
 Finish the control flow track from Code Academy to learn syntax:
 https://www.codecademy.com/courses/learn-python/lessons/conditionals--control-flow/exercises/go-with-the-flow?action=resume_content_item
 
-Finish the functions track to learn function declaration., definition and invocation:
+Finish the functions track to learn function declaration, definition and invocation:
 
 https://www.codecademy.com/courses/learn-python/lessons/functions/exercises/what-good-are-functions?action=resume_content_item
 
 This is also a good resource for Python control flow, complete with state diagrams to help hammer points home (Read only from 4.1 - 4.42):
 http://www.openbookproject.net/books/bpp4awd/ch04.html
+
+### Exercises and Answers
 
 After you finish, try some of the excersies in this file (either create a new Python file and run it locally, or use the online compiler):
 
@@ -121,12 +125,13 @@ https://github.com/ben-che/welcome-to-python/blob/master/Module%20Two/answer.py
 # Module Three
 ## Complex Data Types (Lists and Objects)
 
+
 # Module Four
 ## Loops
 
-_Often, when we write functions, we need to use them multiple times. As an example, examine the following code:_
+Often, when we write functions, we need to use them multiple times. As an example, examine the following code:
 
-Defining a function called count that prints it's input:
+Defining a function called count that prints its input:
 ```
 def count(n):
     print(n)
@@ -139,8 +144,24 @@ count(3)
 ...
 count(10)
 ```
-_In Python (and many other programming languages), there are ways to tell the language to do a specific set of instructions "x" amount of times. This, for the most part, is called a loop._
+In Python (and many other programming languages), there are ways to tell the language to do a specific set of instructions "x" amount of times. This is called a loop.
 ```
 for n in range(1, 10):
     count(n)
 ```
+
+### For Loops vs While Loops
+
+There are mainly two types of loops that are used - the first is a For loop and the second is a While loop. While there are syntax and semantic differences for both, anything we can accomplish in one type of loop, we can do in another.
+- For loops are generally used when the developer knows how many times a behaviour should occur (ex. If I wanted to do a specific behaviour for each item in an array.)
+- While loops are generally used when the developer does not know specifically how long the loop should run for (ex. Run a game until the user runs out of lives.)
+
+### Parts of a loop
+We can break down Python loops into three distinct parts:
+1. __A test condition__: An expression that, if when evaluated is true, will run the contents of the loop. Otherwise, the loop breaks, and the next lines of code will be run.
+2. __The body__: This is where the behaviour of the loop is defined - what kind of behaviour does the developer want repeated?
+3. __The increment__: In the case of a for loop, the loop count is incremented such that the loop will eventually break. In the case of a while loop, the variable within the test condition will be changed so that the loop will eventually break.
+
+### Readings / Lecture : 
+- [Introduction to Python Loops](https://www.datacamp.com/community/tutorials/loops-python-tutorial)
+- [CodeAcademy Interactive Loop Tutorial](https://www.codecademy.com/courses/learn-python/lessons/loops/exercises/while-youre-here)
